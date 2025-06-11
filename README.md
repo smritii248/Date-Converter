@@ -5,7 +5,7 @@ A Python utility to convert dates between English (Gregorian) and Nepali (Bikram
 
 ## Features
 
-- Convert English dates (YYYY-MM-DD) to Nepali dates.
+- Convert English dates (YYYY-MM-DD) to Nepali dates and vice-versa.
 - Support for Nepali month and day names.
 - Utilize the `nepali_datetime` library for accurate Nepali calendar conversion.
 - Easy to integrate into Python projects for date localization.
