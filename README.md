@@ -1,34 +1,23 @@
 # Date-Converter
-# Python Date Conversion Utility
+ # English-Nepali Date Converter
 
-A simple Python utility for converting dates between different formats using the built-in `datetime` module.
+A Python utility to convert dates between English (Gregorian) and Nepali (Bikram Sambat) formats.
 
 ## Features
 
-- Parse date strings into Python `datetime` objects.
-- Format `datetime` objects into custom date string formats.
-- Convert date strings from one format to another.
-- Support for working with timestamps.
-- (Optional) Guidance for timezone-aware date handling.
+- Convert English dates (YYYY-MM-DD) to Nepali dates.
+- Support for Nepali month and day names.
+- Utilize the `nepali_datetime` library for accurate Nepali calendar conversion.
+- Easy to integrate into Python projects for date localization.
 
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 
 - Python 3.x
 
-No external libraries are required for basic date conversion.
+Install the required library via pip:
 
-### Usage
-
-1. **Parsing a date string into a datetime object**
-
-**python
-from datetime import datetime
-
-date_str = "2025-06-11"
-date_obj = datetime.strptime(date_str, "%Y-%m-%d")
-print(date_obj)  # Output: 2025-06-11 00:00:00
+`bash
+pip install nepali-datetime
 
 
 Feel free to fork, modify, or contribute!
